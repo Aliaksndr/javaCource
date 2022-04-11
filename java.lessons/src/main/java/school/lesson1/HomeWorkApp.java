@@ -2,24 +2,31 @@ package school.lesson1;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-///
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
     }
-        public static void printThreeWords() {
-            System.out.println("Orange");
-            System.out.println("Banana");
-            System.out.println("Apple");
+
+    ///task2
+    public static void printThreeWords() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
-///
-    public static void checkSumSign(){
+
+    ///task3
+    public static void checkSumSign() {
         int a = 5;
         int b = -51;
-        if (a+b >=0) {
+        if (a + b >= 0) {
             System.out.println("Сумма положительная");
-        }else{
+        } else {
             System.out.println("Сумма отрицательная");
         }
     }
-    ///
+
+    ///task4
     public static void printColor() {
         int value = 0;
         if (value <= 0) {
@@ -31,14 +38,15 @@ public class HomeWorkApp {
         if (value > 100) {
             System.out.println("Зеленый");
         }
-        ///
+        ///task 5
     }
+
     public static void compareNumbers() {
         int a = 32;
         int b = 213;
         if (a >= b) {
             System.out.println("a>=b");
-        }else{
+        } else {
             System.out.println("a < b");
         }
     }
